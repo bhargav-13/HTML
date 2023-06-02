@@ -1,0 +1,23 @@
+p{
+    color: brown;
+    font-size: x-large;
+}
+
+#id1{
+    background-color: aqua;
+}
+
+
+.paraclass{
+    background-color: blueviolet;
+    color: black;
+    text-shadow: 0cqh;
+}
+
+p,h1{
+    width: 1200px;
+}
+
+p.paraclass{
+    text-align: center;
+}
