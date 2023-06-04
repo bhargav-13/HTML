@@ -21,3 +21,11 @@ p,h1{
 p.paraclass{
     text-align: center;
 }
+
+#fp{
+    background-color: yellow;
+}
+
+#sp{
+    background-color: rgb(red, green, blue);
+}

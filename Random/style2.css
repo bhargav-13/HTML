@@ -1,0 +1,18 @@
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#fp{
+    background-color: rgb(58, 253, 32);
+}
+
+#sp{
+    background-color: rgb(154, 157, 216)
+}
+
+#tp{
+    background-color: rgba(244, 104, 104, 0.458)
+}
+
+.fc{
+    background-color: #adf54280 ;
+}
