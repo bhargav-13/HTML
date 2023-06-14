@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+h1{
+    text-shadow: 3px 3px 10px hsl(0, 91%, 58%), -3px -3px 10px rgb(61, 61, 247) ;
+    margin-bottom: 15px;
+    border: 3px solid yellowgreen;
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+#Box1{
+    border: 2px solid rgb(189, 247, 82);
+    height: 100px;
+    background-color: hsl(300, 92%, 86%);
+}
+
+#Box2{
+    border: 2px solid rgb(189, 247, 82);
+    height: 100px;
+    background-color: hsl(249, 100%, 69%);
+
+}
+
+.box{
+    width: 50%;
+    float: left ;
+
+}
+
+button{
+    background-color: hsl(0, 51%, 71%);
+    margin-left: 390px;
+    margin-top: 20px;
+}
+
+button:hover{
+    font-size: 1.1em;
+    background-color: rgb(61, 241, 61);
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+button:active{
+    background-color: rgb(75, 42, 165);
+}
+
+p:hover{
+    background-color: bisque;
+}

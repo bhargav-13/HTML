@@ -1,0 +1,77 @@
+h1::first-letter{
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 35%;
+}
+
+p::selection{
+    color: greenyellow;
+    background-color: rgb(165, 165, 165);
+}
+
+
+#apple::after{
+    content: "🍎";
+}
+
+#orange::after{
+    content: "🍊";
+}
+
+#banana::after{
+    content: "🍌";
+}
+
+#fruits li::marker{
+    content: "☑️  ";
+}
+
+.pagination{
+    text-align: center;
+    font-size: x-large;
+}
+
+.pagination a{
+    padding: 10px;
+    display: inline-block;
+}
+
+.pagination a.active{
+    background-color: rgba(172, 255, 47, 0.671);
+    color: brown;
+}
+
+.pagination a:hover:not(.active){
+    background-color: rgba(255, 255, 0, 0.212);
+}
+
+.dropdown button{
+    background-color: rgb(243, 243, 155);
+    color: blue;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: hsl(240, 93%, 88%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px greenyellow;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown a:hover{
+    background-color: rgba(172, 255, 47, 0.281);
+}
