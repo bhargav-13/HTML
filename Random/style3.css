@@ -23,6 +23,16 @@ h1{
     text-decoration: overline;
     padding: 15px;
     padding-left: 50px;
+    padding-right: 50px;
+    display: block;
+    text-align: center;
+}
+
+.navbar img{
+    color: white;
+    text-decoration: overline;
+    padding-left: 50px;
+    padding-right: 50px;
     display: block;
     text-align: center;
 }
