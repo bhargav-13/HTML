@@ -30,3 +30,16 @@ document.getElementById("decrease").onclick = function(){
     document.getElementById("counter").innerHTML = a;
 }
 
+document.getElementById("button").onclick = function(){
+
+    if(document.getElementById("myCB").checked){
+        document.getElementById("ans").innerHTML = "You are Subscribed";
+        alert("You are Subscribed");
+    }
+    else{
+        document.getElementById("ans").innerHTML = "You aren't Subscribed";
+        alert("You aren't Subscribed");
+    }
+}
+
+
