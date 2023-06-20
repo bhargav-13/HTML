@@ -2,11 +2,6 @@ function getRandomCard(){
     return Math.floor(Math.random()*13)+1
 }
 
-let fcard = getRandomCard()
-let scard = getRandomCard()
-let cards = [fcard, scard] //array
-
-
 
 let msgEL = document.getElementById("message-el")
 let cardEL = document.getElementById("cards-el")
@@ -16,14 +11,18 @@ let sumEL = document.getElementById("sum-el")
 let message = ""
 let isAlive = true
 let hasBlackJack = false
+let cards = []
 
 function startGame(){
+    let fcard = getRandomCard()
+    let scard = getRandomCard()
+    cards = [fcard, scard] //array
     renderGame()
 }
 
 function renderGame(){
 
-    if(isAlive){
+    if(isAlive && !hasBlackJack){
         let sum = 0
         for(i = 0; i<cards.length; i+=1){
             sum += cards[i];
