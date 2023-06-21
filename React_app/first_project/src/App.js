@@ -9,7 +9,7 @@ import MovieCart from "./MovieCart";
 const API_URL = 'http://www.omdbapi.com?apikey=b6003d8a';
 
 const App = () => {
-    const [movies, setMovies] = useState([]);
+    const [movies, setMovies] = useState([]) ;
     const [searchTerm, setSearchTerm] = useState("");
 
     const searchMovies = async (title) => {
