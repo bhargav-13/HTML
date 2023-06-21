@@ -12,8 +12,10 @@ let message = ""
 let isAlive = true
 let hasBlackJack = false
 let cards = []
+let startgame = false
 
 function startGame(){
+    startgame = true
     let fcard = getRandomCard()
     let scard = getRandomCard()
     cards = [fcard, scard] //array
@@ -52,6 +54,12 @@ function renderGame(){
 
 
 function newCard(){
-    cards.push(getRandomCard())
-    renderGame()
+    if(startgame){
+        cards.push(getRandomCard())
+        renderGame()
+    }
+    else{
+        document.getElementById("error").textContent ="You have to start the game!!"
+    }
+    
 }
